@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>CONTATO - IFSP - Pirituba - DWBA4</title>
+    <link rel="shortcut icon" href="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/favicon.ico" type="text/css" />
+    <link  href = "css/menu.css " rel = "stylesheet" type = "text/css"/>
+    <link  href = "css/formulario.css " rel = "stylesheet" type = "text/css"/>
+  </head>
+  <body>
+    <header id='cabecalho'>
+    <div id="menuhorizontal">
+      <ul>
+        <li>
+          <a href="index.html">HOME</a>
+        </li>
+        <li>
+          <a href="eventos.html">EVENTOS</a>
+        </li>
+        <li>
+          <a href="contato.html">CONTATO</a>
+        </li>
+        <li class="dropdown">
+          <a class="dropbtn">CURSOS</a>
+          <div class="dropdown-content">
+            <a href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+            <a href="#">Engenharia de Produção</a>
+            <a href="#">Gestão em Tecnologia da Informação</a>
+            <a href="#">Letras</a>
+            <a href="#">Gestão Pública</a>
+          </div>
+        </li>
+        <li>
+          <a href="entrar.html">ENTRAR</a>
+        </li>
+        <li>
+          <a href="sobre.html">SOBRE</a>
+        </li>
+      </ul>
+    <br>
+    <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/Logo.jpg">
+    </div>
+    </header>
+    <h1> <b>Mande uma mensagem</b> </h1>
+      <br>
+      <form method="POST">
+        <ul>
+          <li><label for="nome">Nome</label>
+          <input type="text" name="nome" id="nome" required></li>
+          <li><label for="email">E-Mail</label>
+          <input type="email" name="email" id="email" required></li>
+          <li><label for="telefone">Telefone (99) 99999-9999 </label>
+          <input type="tel" name="telefone" id="telefone" pattern="\([0-9]{2}\) [0-9]{5}-[0-9]{4}$" required></li>
+          <li><label for="assunto">Assunto</label>
+          <select name="assunto" required>
+            <option value>-- Selecione --</option>
+            <option value="reclamacao">Reclamação</option>
+            <option value="sugestao">Sugestão</option>
+          </select>
+          </li>
+          <li><label for="mensagem">Mensagem</label>
+          <textarea name="mensagem" id="mensagem" required></textarea></li>
+          <li><fieldset>
+            <legend>Opções de Resposta</legend>
+            <label for="opcao-email">E-Mail</label>
+            <input type="checkbox" name="opcao-email" id="opcao-email">
+            <label for="opcao-telefone">Telefone</label>
+            <input type="checkbox" name="opcao-telefone" id="opcao-telefone"></fieldset></li>
+          <input type="submit" value="Enviar"> 
+        </ul>
+      </form>
+      <br>
+      <br>
+      <br>
+      <a href='#cabecalho'> <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/MoveTop.png" width="45" height="47"></a>
+      | 
+      <a href='https://www.facebook.com/ifsppirituba'> <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/facebook.png" width="45" height="47"></a>
+      | 
+      <a href='https://ptb.ifsp.edu.br/'> <img src="https://raw.githubusercontent.com/DWBA4/dwba4_semana_imagens/master/ifsp.png" width="45" height="47"></a>
+      <br>
+      <footer>
+      <p> IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (011) 2504-0100 </p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
